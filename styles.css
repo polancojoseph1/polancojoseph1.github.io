@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #edeff1;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+}
+
+h2 {
+    margin: 20px;
+}
+
+img {
+    border-radius: 3px;
+}
+
+p {
+    color: #a9abad;
+    font-size: 20px;
+}
+
+.box-title {
+    font-size: 50px;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 90px 0;
+}
+
+.footer-container {
+    margin-bottom: 10px;
+}
+
+.box {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    display: flex;
+}
+
+.hi-there {
+    width: 100%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-journey {
+    width: 100%;
+    display: flex;
+}
+
+.my-journey div {
+    width: 100%;
+    position: relative;
+}
+
+.my-journey-box {
+    padding-right: 10%;
+}
+
+.my-journey-box h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.box-second {
+    margin: 0;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    margin: 0;
+}
+
+.row p {
+    background-color: #e1e2e5;
+    color: black;
+    border: 3px solid #caccce;
+    padding: 0 10px;
+    border-radius: 1px;
+    margin-right: 5px;
+    box-shadow: 2px 2px 2px #6c6d6d;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 940px) {
+    main {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav h2 {
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .img {
+        align-items: center;
+        justify-content: center;
+        margin: 15px 0;
+    }
+
+    .container {
+        margin: 0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-title {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .hi-there {
+        margin: 20px 0;
+    }
+
+    .my-journey-box {
+        padding: 0;
+    }
+
+    .my-journey-box h3 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .footer-container {
+        align-items: center;
+    }
+
+    .second-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .second-box h3 {
+        font-size: 32px;
+    }
+
+    .list-of-tech {
+        width: 100%;
+    }
+
+    .row {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 599.98px) {
+
+ }
+ @media screen and (max-width: 399.98px) {
+
+ }
